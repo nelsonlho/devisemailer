@@ -3,6 +3,10 @@ class PagesController < ApplicationController
   end
 
   def index
+<<<<<<< HEAD
+=======
+    @articles = Article.last(4)
+>>>>>>> articles
   end
 
   def contact
